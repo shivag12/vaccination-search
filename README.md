@@ -25,7 +25,9 @@
 * In the add-arguments, enter `-d <DISTRICT_ID>`, example `-d 294`, gives the list of all available vaccination centers under BBMP, bangalore Karnataka. 
 * Save the task. For testing the scheduler, select **Task scheduler library** on left hand side menu --> Find the task created --> right click --> select run. This should throw some notifications like searching..etc (Refer to sample notification section) 
 
+![alt text](https://raw.githubusercontent.com/shivag12/vaccination-search/main/images/task_scheduler.png "Task Scheduler")
 
-###### Sample notifications.
+##### Sample Notifications.
 
+![alt text](https://raw.githubusercontent.com/shivag12/vaccination-search/main/images/notifications.png "Task Scheduler")
 
