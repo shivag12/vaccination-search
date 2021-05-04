@@ -3,6 +3,7 @@ import json
 import argparse
 from win10toast import ToastNotifier
 import datetime
+import time
 
 parser = argparse.ArgumentParser(description='Vaccination search by district and date')
 parser.add_argument('-id',"--district_id", metavar="",type=int,help='District id (refer to attachment)')
@@ -20,7 +21,7 @@ SEARCH_BY_DISTRICT = "https://cdn-api.co-vin.in/api/v2/appointment/sessions/publ
 
 r = requests.get(SEARCH_BY_DISTRICT)
 
-#print(r.text)
+toaster.show_toast("Vaccination Notification for 18+","Searching for slots in the region",icon_path="",duration=4)
 
 #f = open("sample.json")
 data = r.json()
@@ -55,6 +56,9 @@ if(len(available_slots_for_18["results"]) > 0):
     toaster.show_toast("Vaccination Notification for 18+","Slots available at "+notification_string,duration=10)
     with open("available_slots.json",'w') as outfile:
         json.dump(available_slots_for_18,outfile)
+
+
+#time.sleep(5)
 
 #print(args.district_id)
 #print(args.date)
