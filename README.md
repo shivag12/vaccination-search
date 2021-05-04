@@ -1,3 +1,9 @@
+# Vaccination Availablity Notification
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![visual studio code ](https://badges.aleen42.com/src/visual_studio_code.svg)]() [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)]()
+
+
+
 # Setup
 
 ### Requirements
@@ -27,7 +33,20 @@
 
 ![alt text](https://raw.githubusercontent.com/shivag12/vaccination-search/main/images/task_scheduler.png "Task Scheduler")
 
-##### Sample Notifications.
+## Sample Notifications ##
 
 ![alt text](https://raw.githubusercontent.com/shivag12/vaccination-search/main/images/notifications.png "Task Scheduler")
+
+## Disclaimer ##
+ I take no warranty or responsibility of the code, as mentioned in license. Issues and emails are welcomed, and I will do by best to reply. However I generally do NOT have time to fix it oftenly, due to work. The code was written within 5 hours and I knew shit/bugs/issues are in the code, will try as much as possible to fix it. if you found any issues or any idea to enhance this plugin, do create an github issue and PR's are accepted.
+
+## Changelog ##
+
+### 0.0.1
+
+The first release of this plugin, containing:
+
+* Windows 10 notifications for vaccination slots (only for INDIA) of age 18+
+* Scheduling the search using windows task scheduler.
+* Searching the states & districts unique id. 
 
