@@ -53,7 +53,7 @@ print(notification_string)
 #f.close()
 
 if(len(available_slots_for_18["results"]) > 0):
-    toaster.show_toast("Vaccination Notification for 18+","Slots available at "+notification_string,duration=10)
+    toaster.show_toast("Vaccination Notification for 18+","Slots available at "+notification_string,icon_path="",duration=10)
     with open("available_slots.json",'w') as outfile:
         json.dump(available_slots_for_18,outfile)
 
