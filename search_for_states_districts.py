@@ -4,9 +4,9 @@ from prettytable import PrettyTable
 x = PrettyTable()
 
 parser = argparse.ArgumentParser(description='Search for District id by state')
-parser.add_argument('-id',"--state_id", metavar="",type=int,help='state id (refer to state id in the config)',required=False)
-parser.add_argument('-n','--district_name',metavar="",help="District name",required=False)
-parser.add_argument('-s','--state_list',metavar="",help="District name",required=False)
+parser.add_argument('-sid',"--state_id", metavar="",type=int,help='state id (refer to state id in the config), returns associated districts',required=False)
+parser.add_argument('-dn','--district_name',metavar="",help="Finding the district id by district name",required=False)
+parser.add_argument('-sl','--state_list',metavar="",help="Get the full list of available states in india",required=False)
 args = parser.parse_args()
 
 SEARCH_BY_STATE_ID = "https://cdn-api.co-vin.in/api/v2/admin/location/districts/"+str(args.state_id)

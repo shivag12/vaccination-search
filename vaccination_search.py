@@ -5,8 +5,8 @@ from win10toast import ToastNotifier
 import datetime
 import time
 
-parser = argparse.ArgumentParser(description='Vaccination search by district and date')
-parser.add_argument('-id',"--district_id", metavar="",type=int,help='District id (refer to attachment)')
+parser = argparse.ArgumentParser(description='Vaccination search by district and finding the available slot (18+) for the next 7 days')
+parser.add_argument('-d',"--district_id", metavar="",type=int,help='District id (refer to attachment)')
 #parser.add_argument('-d',"--date",metavar="",help='Format: mm-dd-yyyy, Show available slots for next 7 days')
 args = parser.parse_args()
 
