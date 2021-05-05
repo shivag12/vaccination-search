@@ -38,7 +38,7 @@
 ![alt text](https://raw.githubusercontent.com/shivag12/vaccination-search/main/images/notifications.png "Task Scheduler")
 
 ## Disclaimer ##
- I take no warranty or responsibility of the code, as mentioned in license. Issues and emails are welcomed, and I will do by best to reply. However I generally do NOT have time to fix it oftenly, due to work. The code was written within 5 hours and I knew shit/bugs/issues are in the code, will try as much as possible to fix it. if you found any issues or any idea to enhance this plugin, do create an github issue and PR's are accepted.
+ I take no warranty or responsibility of the code, as mentioned in license. Issues and emails are welcomed, and I will do by best to reply. However I generally do NOT have time to fix it oftenly, due to work. The code was written within 5 hours and I knew there are bugs/issues are in the code, will try as much as possible to fix it. if you found any issues or any idea to enhance this plugin, do create an github issue and PR's are accepted.
 
 ## Changelog ##
 
